@@ -1,0 +1,5 @@
+build:
+ 	 npm run build
+deploy:build
+		aws s3 cp --recursive dist/ s3://proyectfy --grants read=url=http://acs.amazonaws.com/groups/global/AllUsers
+		
