@@ -100,7 +100,7 @@ export default{
       this.toast = true;
     },
     guardarExcel(e){
-      const url = 'http://localhost:3000/roots';
+      const url = 'http://3.224.186.224/roots';
       let empleado = this.employee;
       let aux = 0;
       let toast ;

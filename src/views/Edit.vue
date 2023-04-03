@@ -51,7 +51,7 @@ export default{
     data () {
         return{
             registros:[],
-            URL: 'http://localhost:3000/roots',
+            URL: 'http://3.224.186.224/roots',
             editing: false,
             editId:''
         };},
