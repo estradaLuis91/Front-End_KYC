@@ -51,7 +51,7 @@ export default{
     data () {
         return{
             registros:[],
-            URL: 'http://3.224.186.224/roots',
+            URL: 'http://3.144.99.167:3000/roots',
             editing: false,
             editId:''
         };},
